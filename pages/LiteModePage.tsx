@@ -81,7 +81,7 @@ const LiteModePage: React.FC = () => {
         async function getVide123(videoId2) {
           try {
             const res = await fetch(
-              `https://script.google.com/macros/s/AKfycbz5fzb79I9ixtr9u-qbwFDtCFVOGABI0wmDzCb9QK4TOLRtKSZtngXCB4cfmJMjJpeJ/exec?stream=${encodeURIComponent(
+              `https://script.google.com/macros/s/AKfycbxsBUQzDAWmWTEZqcf7KJbzfTKVBm9E16AwhTyg094ffMD-2hXDrFEqOL4CyOQnTzaU/exec?id=${encodeURIComponent(
                 videoId2
               )}`
             );
